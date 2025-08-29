@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex & Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Flex & Grid Demo</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section flex-section">
+            <h2>Flexible Content with Flexbox</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h3>Item 1</h3>
+                    <p>This is a flexible item. It adjusts its size and position within the container. Flexbox is great for one-dimensional layouts.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Item 2</h3>
+                    <p>Another flexible item. Notice how they arrange themselves in a row by default. On smaller screens, they will stack vertically.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Item 3</h3>
+                    <p>A third item to show the full flexibility. It maintains consistent spacing and alignment with its siblings.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section grid-section">
+            <h2>Two-Dimensional Layout with Grid</h2>
+            <div class="grid-container">
+                <div class="grid-item header-item">Header</div>
+                <div class="grid-item sidebar-item">Sidebar</div>
+                <div class="grid-item content-item">Main Content</div>
+                <div class="grid-item footer-item">Footer</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Flex & Grid Demo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
